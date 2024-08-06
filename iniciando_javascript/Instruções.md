@@ -9,6 +9,12 @@ Os arquivos desta aula incluem:
 - `exemplo.js`: Arquivo utilizado como exemplo para demonstrar o uso do JavaScript
 - `index.html`: Arquivo com código da primeira página Web utilizado como exemplo
 
+## Requisitos
+
+1. Ter um navegador instalado para caso queria utilizar o HTML e CSS
+2. Ter Node instalado para Utiliazar o JavaScript
+3. Ter uma IDE para conseguir escrever o código
+
 ## Instruções
 
 Para rodar os exemplos desta aula, siga os passos abaixo:
@@ -23,7 +29,7 @@ Para rodar os exemplos desta aula, siga os passos abaixo:
 
    - Para executar um arquivo JavaScript:
      ```bash
-     node exemplo.js
+     node script.js
      ```
 
 3. Execute o arquivo principal index.html basta clicar duas vezes sobre ele
