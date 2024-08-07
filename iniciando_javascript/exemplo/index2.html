@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- CSS para dar estilo a página -->
+    <style>
+      #css {
+        color: pink;
+      }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <p>Olá mundo</p>
+    <p id="css">Olá mundo</p>
+    <p id="script"></p>
+
+    <button id="botao">Soma</button>
+    <p>Resultado: <span id="cont">0</span></p>
+  </body>
+
+  <script>
+    let contador = 0;
+    document.getElementById("script").innerText = "Olá mundo com JavaScript";
+
+    const botao = document.getElementById("botao");
+
+    botao.addEventListener("click", function () {
+      contador++;
+      document.getElementById("cont").innerHTML = contador;
+
+      if (contador % 2 == 0) document.getElementById("css").style.color = "red";
+      else document.getElementById("css").style.color = "green";
+    });
+  </script>
+</html>

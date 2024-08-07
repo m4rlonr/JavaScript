@@ -7,7 +7,8 @@ Nesta aula, aprendemos como prepara o ambiente local e utilizar Javascript.
 Os arquivos desta aula incluem:
 
 - `exemplo.js`: Arquivo utilizado como exemplo para demonstrar o uso do JavaScript
-- `index.html`: Arquivo com código da primeira página Web utilizado como exemplo
+- `index.html`: Arquivo com código da primeira página Web sem utilizar JavaScript
+- `index2.js`: Arquivo utilizado como exemplo para demonstrar o uso do JavaScript
 
 ## Requisitos
 
@@ -46,12 +47,16 @@ Assista ao vídeo da aula no YouTube para uma explicação detalhada:
   - _"Iniciando com JavaScript em 5 minutos"_
 
 - **Link do Vídeo:**
-  - [Aula X: Título da Aula](https://youtube.com/link-do-video)
+  - [Usando JavaScript de 3 formas em 10 min!](https://youtu.be/taviroutGgw)
 
-## Recursos Adicionais
+## Links Downlaod
 
 - [Downlaod Node](https://nodejs.org/pt)
 - [Downlaod Vscode](https://apps.microsoft.com/store/detail/XP9KHM4BK9FZ7Q?ocid=pdpshare)
+
+## Link PlayGroun JavaScript
+
+- [PlayGround](https://playcode.io/javascript)
 
 ---
 
