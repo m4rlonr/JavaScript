@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página no GitHub Pages</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bem-vindo à Minha Página</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="row">
+          <div class="col card clickable">
+            <h3>O que é GitHub Pages?</h3>
+            <p>
+              Uma maneira fácil e gratuita de hospedar suas páginas web
+              diretamente de um repositório no GitHub.
+            </p>
+          </div>
+
+          <div class="col card clickable">
+            <h3>Por que Usar?</h3>
+            <p>
+              Perfeito para portfólios, blogs, ou qualquer projeto que você
+              queira compartilhar com o mundo.
+            </p>
+          </div>
+
+          <div class="col card clickable">
+            <h3>Como Começar?</h3>
+            <p>Continue assistindo para aprender como fazer isso!</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="col card">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu nome"
+          />
+
+          <label for="username">Usuário:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Digite seu usuário"
+          />
+
+          <button onclick="showAlert()">Enviar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 - Marlon Rodrigues</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
