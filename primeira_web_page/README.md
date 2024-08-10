@@ -7,7 +7,7 @@ Este projeto foi criado como parte de um vídeo tutorial no YouTube, onde mostra
 
 ## Link para o Vídeo
 
-Você pode assistir ao tutorial completo no YouTube através deste link: [Link do Vídeo](#)
+Você pode assistir ao tutorial completo no YouTube através deste link: [Link do Vídeo](https://www.youtube.com/watch?v=4dK7e_vR4SQ)
 
 ## Requisitos
 
